@@ -1,0 +1,116 @@
+/* Allgemein*/
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6rem;
+    background-color: #1b1c1b;
+    color: #adadac;
+}
+.green {
+    color: #468630;
+}
+.btn-primary {
+    background-color: #468630;
+    border-color: #529d37;
+}
+.btn-primary:hover {
+    background-color: #214219;
+    border-color: #214219;
+}
+.fa-seedling {
+    color: #adadac;
+}
+/* Navigation */
+.nav-link {
+    cursor: pointer;
+}
+.nav-link:active,
+.nav-link:hover {
+   color: #468630 !important;
+}
+/* Table */
+.form-control:focus, .form-select:valid:focus {
+    box-shadow: none;
+    border: 1px solid #529d37;
+}
+/* Pfeiltaste zum Seitenanfang */
+.fa-angle-up {
+    font-size: 3rem;
+    color: #adadac;
+}
+.fa-angle-up:hover {
+    color: #214219;
+}
+.nav-up {
+    text-align: center;
+    margin: 40px;
+}
+.fa-chevron-up {
+    font-size: 2rem;
+    color: #adadac;
+}
+.fa-chevron-up:hover {
+    color: #214219;
+}
+.go-up {
+    text-align: right;
+
+}
+/* Card Link */
+.card-title {
+    color: #468630;
+}
+.card-text {
+    color: #adadac;
+}
+/* Footer */
+.footer {
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #adadac;
+}
+.footer-link:hover {
+    color: #214219;
+}
+.footer-link {
+    color: #adadac;
+    text-decoration: none;
+}
+.footer-li {
+    display: inline;
+    margin: 10px;
+    margin-right: 50px;
+}
+/* Impressum */
+.impressum {
+    color: #468630;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 3.6rem;
+}
+.impressum-info {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+/* Datenschutz */
+.datenschutz {
+    color: #468630;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 3.6rem;
+}
+.datenschutz-info {
+    font-size: 1.6rem;
+    background-color: #1b1c1b;
+    color: #adadac;
+    margin-left: 30px;
+}
+/* Back to Home from Datenschutz and Impressum */
+.fa-house {
+    font-size: 3rem;
+    color: #468630;
+    margin-top: 100px;
+}
+.fa-house:hover {
+    color: #214219;
+}
